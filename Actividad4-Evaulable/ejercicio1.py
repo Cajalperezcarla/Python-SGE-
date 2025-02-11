@@ -10,14 +10,14 @@ import math
 Método que ordena la lista que se le pasa por parámetro
 '''
 def ordena(lista):
-    lista_ordenada = []
+    lista_ordenada = [] # lista que almacenará los numeros una vez ordenados
     while lista:
         minimo = lista[0]
         for i in lista:
             if i < minimo:
                 minimo = i
-        lista_ordenada.append(minimo)
-        lista.remove(minimo)
+        lista_ordenada.append(minimo)# añadimos el minimo a la lista ordenada
+        lista.remove(minimo)# quitamos el minimo de la lista desordenada
     return lista_ordenada
     
 

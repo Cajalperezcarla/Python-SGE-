@@ -1,5 +1,7 @@
 # #########################################################
-#  Ejercicio 4.2: Pedir un número al usuario y sumarle 2
+#  Ejercicio 4.2: Pide al usuario que introduzca un valor 
+#  numérico por pantalla y luego suma dicho número a 2.
+#  Explica qué sucede y por qué
 #
 #  Autor: Carla Cajal Pérez
 # #########################################################
